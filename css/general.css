@@ -11,45 +11,66 @@ body {
 }
 
 main {
-    margin: 25px 75px 50px 75px; /* margen de la derecha */
+    margin: 25px 180px 40px 180px;
+    /* margen de la derecha */
     padding: 20px;
 }
 
+/* Tipografía */
 p {
     font-family: 'Montserrat', sans-serif !important;
 }
 
 h1 {
     font-family: 'Montserrat', sans-serif !important;
-    padding-left: 180px;
     padding-bottom: 35px;
     color: #67081a;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif !important;
-    text-align: right;
-    padding-right: 360px;
     padding-bottom: 35px;
+    padding-top: 20px;
     color: #67081a;
 }
 
+
 h3 {
     font-family: 'Montserrat', sans-serif !important;
-    padding-left: 180px;
     padding-bottom: 35px;
     color: #67081a;
 }
 
 h4 {
     font-family: 'Montserrat', sans-serif !important;
-    padding-left: 180px;
     padding-bottom: 35px;
+    text-align: center;
     color: #67081a;
 }
 
-img {
+.text_right {
+    text-align: right;
+    font-size: 30px;
+}
+
+.text_left {
+    text-align: left;
+    font-size: 30px;
+}
+
+
+ /* Imagenes */
+.imagen_left {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    float: left;
+}
+
+.imagen_right {
+    display: block;
+    float: right;
+}
+
+.imagen_center{
+    display: block;
+    text-align: center;
+}
