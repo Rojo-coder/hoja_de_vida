@@ -9,14 +9,14 @@
 **4.** Entrar Visual Studio Code y abrir actual proyecto.
 
 #### Subir cambios a GitHub:
-**1.** Agregar:
-```git add *```
-**2.**  Comitear:
-```git commit -m "Message"```
-**3.** Subir:
-````git push origin main```
+**1.** Agregar:  
+```git add *```  
+**2.**  Comitear:  
+```git commit -m "Message"```  
+**3.** Subir:  
+````git push origin main```  
 
-#### Actualizar cambios de Github:
-**1.** Actualizar:
+#### Actualizar cambios de Github:  
+**1.** Actualizar:  
 ```git pull```
 
