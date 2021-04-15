@@ -15,7 +15,6 @@
 ```git commit -m "Message"```  
 **3.** Subir:  
 ````git push origin main```  
-
 #### Actualizar cambios de Github:  
 **1.** Actualizar:  
 ```git pull```
