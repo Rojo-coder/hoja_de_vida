@@ -1,6 +1,6 @@
 # Hoja de Vida
 
-#### Pasos para clonar éste repositorio:
+#### Pasos para clonar este repositorio:
 **1.** Abre el simbolo del sistema.  
 **2.**  Clona con el siguiente Script:   
 ```git clone https://github.com/Rojo-coder/hoja_de_vida.git```    
