@@ -1,12 +1,12 @@
 # Hoja de Vida
 
 #### Pasos para clonar éste repositorio:
-**1.** Abre el simbolo del sistema.
-**2.**  Clona con el siguiente Script: 
-```git clone https://github.com/Rojo-coder/hoja_de_vida.git```  
-**3.** Abrir la carpeta del repo:
-```cd hoja_de_vida```
-**4.** Entrar Visual Studio Code y abrir actual proyecto.
+**1.** Abre el simbolo del sistema.  
+**2.**  Clona con el siguiente Script:   
+```git clone https://github.com/Rojo-coder/hoja_de_vida.git```    
+**3.** Abrir la carpeta del repo:  
+```cd hoja_de_vida```  
+**4.** Entrar Visual Studio Code y abrir actual proyecto.  
 
 #### Subir cambios a GitHub:
 **1.** Agregar:  
