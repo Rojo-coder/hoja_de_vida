@@ -10,17 +10,18 @@
   <link rel="stylesheet" href="./css/estilos.css">
   <link rel="stylesheet" href="./css/general.css">
   <link rel="shortcut icon" href="./Img/Logo.svg">
+
   <title> HOJA DE VIDA </title>
 </head>
 
 <body>
-  
+
   <!-- Navbar -->
   <nav></nav>
 
   <!-- Pagina de aterrizaje -->
   <header>
-    <img src="./Img/IMG_PO.jpg" alt="Hero">
+    <img src="./Img/IMG_PO.jpg" alt="Hero" width="100%">
   </header>
 
   <!-- Social section -->
@@ -29,8 +30,7 @@
     <ul>
       <li><a href="https://" target="_blank" class="icon-twitter"></a></li>
       <li><a href="https://" target="_blank" class="icon-facebook"></a></li>
-      <li><a href="https://" target="_blank" class="icon-youtube"></a>
-      </li>
+      <li><a href="https://" target="_blank" class="icon-youtube"></a></li>
       <li><a href="https://" target="_blank" class="icon-github"></a></li>
       <li><a href="https://" target="_blank" class="icon-instagram"></a></li>
       <li><a href="mailto:" target="_blank" class="icon-mail3"></a></li>
@@ -41,62 +41,75 @@
   <main>
 
     <!-- Introduction section -->
-    <div>
-      <h1">HOJA DE VIDA</h1>
-
-        <img src="./Img/IMG_Foto_Personal.jpg" alt="Hero" width="300px">
-        <p>
-          Mi nombre es Nicool Daniela Rojo Patiño, tengo 20 años, <br> en el momento estoy en 5º semestre de la carrera
-          Diseño Gráfico, <br> en la Corporación universitaria Escuela de artes y letras.
-          A lo largo <br> de los semestres me he destacado más en unas cosas que en otras, <br> viendo mis fortalezas y
-          debilidades en diversos proyectos, en unos <br> momentos visualizaremos algunos de los trabajos que he podido
-          crear, <br> ¡así que vamos a ello…!
-        </p>
+    <div class="introduccion">
+      <h1>HOJA DE VIDA</h1>
+      <div class="wrapper">
+        <div class="imagen">
+          <img src="./Img/IMG_Foto_Personal.jpg" alt="foto personal" width="300px">
+        </div>
+        <div class="parrafo_derecha">
+          <p>
+            Mi nombre es Nicool Daniela Rojo Patiño, tengo 20 años, en el momento estoy en 5º semestre de la
+            carrera Diseño Gráfico, en la Corporación universitaria Escuela de artes y letras.
+            <br>
+            A lo largo de los semestres me he destacado más en unas cosas que en otras, viendo mis fortalezas y
+            debilidades en diversos proyectos, en unos momentos visualizaremos algunos de los trabajos que he
+            podido crear, ¡así que vamos a ello…!
+          </p>
+        </div>
+      </div>
     </div>
 
     <!-- Experiencia Laboral section -->
-    <div>
-      <h2">EXPERIENCIA LABORAL</h2>
-
-        <img src="./Img/Experiencia.jpg" alt="">
-        <p>
-          A lo largo de mi vida he tenido la oportunidad de trabajar en diversos campos laborares, <br> tanto como
-          comerciante, vendedora de joyas, mesera, diseñadora etc. Estas experiencias <br> me han enseñado a lo largo
-          a saber un poco más de la variedad de empleos, generando <br> fortalezas al desarrollo de mi portafolio.
-        </p>
+    <div class="experiencia_laboral">
+      <h2>EXPERIENCIA LABORAL</h2>
+      <div class="wrapper">
+        <div class="parrafo_izquierda">
+          <p>
+            A lo largo de mi vida he tenido la oportunidad de trabajar en diversos campos laborares, tanto como
+            comerciante, vendedora de joyas, mesera, diseñadora etc. Estas experiencias me han enseñado a lo largo
+            a saber un poco más de la variedad de empleos, generando fortalezas al desarrollo de mi portafolio.
+          </p>
+        </div>
+        <div class="imagen">
+          <img src="./Img/Experiencia.jpg" alt="experiencia" width="500px">
+        </div>
+      </div>
     </div>
 
     <!-- Habilidades section -->
-    <div>
-      <h2">HABILIDADES</h2>
-        <img src="./Img/Habilidades.jpg" alt="">
+    <div class="habilidades">
+      <h1>HABILIDADES</h1>
+      <img src="./Img/Habilidades.jpg" alt="habilidades" width="700px">
     </div>
 
-    <!-- Pprtafolio section -->
-    <div>
-      <h2">PORTAFOLIO</h2>
-        <h3">Editorial</h3>
-          <img src="./Img/Editorial.jpg" alt="">
+    <!-- Portafolio section -->
+    <div class="portafolio">
+      <h2>PORTAFOLIO</h2>
+      <h3>Editorial</h3>
+      <img src="./Img/Editorial.jpg" alt="">
 
-          <h3">Artes Gráficas</h3>
-            <img src="./Img/Artes graficas.jpg" alt="">
+      <h2>Artes Gráficas</h2>
+      <img src="./Img/Artes graficas.jpg" alt="">
 
-            <h3">Ilustración</h3>
-              <img src="./Img/Ilustracion.jpg" alt="">
+      <h3>Ilustración</h3>
+      <img src="./Img/Ilustracion.jpg" alt="">
     </div>
   </main>
 
   <!-- Footer section -->
   <footer>
-    <h5">¡CONTACTAME!</h5>
-      <img src="./Img/Iconos.jpg" alt="">
+    <h4>¡CONTACTAME!</h4>
+    <img src="./Img/Iconos.jpg" alt="">
 
+    <div class="form">
       <form action="-">
         <label form="Email"> Email </label>
         <input name="Email" type="">
         <button>Enviar</button>
         <a href="https://www.facebook.com/nicooldanielarojo/a">Ingresa a mi facebook</a>
         <p>cel: 311253596</p>
+    </div>
   </footer>
 </body>
 
